@@ -13,6 +13,7 @@
 		E970B4791F5C3C4900A6EF6F /* StudentsDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E970B4771F5C3C4900A6EF6F /* StudentsDatabase.xcdatamodeld */; };
 		E970B47B1F5C3C4900A6EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E970B47A1F5C3C4900A6EF6F /* Assets.xcassets */; };
 		E970B47E1F5C3C4900A6EF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E970B47C1F5C3C4900A6EF6F /* LaunchScreen.storyboard */; };
+		E970B4861F5C3DCF00A6EF6F /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E970B47A1F5C3C4900A6EF6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E970B47D1F5C3C4900A6EF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E970B47F1F5C3C4900A6EF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E970B4701F5C3C4900A6EF6F /* AppDelegate.swift */,
+				E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */,
 				E970B4721F5C3C4900A6EF6F /* ViewController.swift */,
 				E970B4741F5C3C4900A6EF6F /* Main.storyboard */,
 				E970B47A1F5C3C4900A6EF6F /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E970B4861F5C3DCF00A6EF6F /* DatabaseController.swift in Sources */,
 				E970B4731F5C3C4900A6EF6F /* ViewController.swift in Sources */,
 				E970B4711F5C3C4900A6EF6F /* AppDelegate.swift in Sources */,
 				E970B4791F5C3C4900A6EF6F /* StudentsDatabase.xcdatamodeld in Sources */,
