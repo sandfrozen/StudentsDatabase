@@ -14,6 +14,10 @@
 		E970B47B1F5C3C4900A6EF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E970B47A1F5C3C4900A6EF6F /* Assets.xcassets */; };
 		E970B47E1F5C3C4900A6EF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E970B47C1F5C3C4900A6EF6F /* LaunchScreen.storyboard */; };
 		E970B4861F5C3DCF00A6EF6F /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */; };
+		E970B48B1F5C4F7600A6EF6F /* Course+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970B4871F5C4F7600A6EF6F /* Course+CoreDataClass.swift */; };
+		E970B48C1F5C4F7600A6EF6F /* Course+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970B4881F5C4F7600A6EF6F /* Course+CoreDataProperties.swift */; };
+		E970B48D1F5C4F7600A6EF6F /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970B4891F5C4F7600A6EF6F /* Student+CoreDataClass.swift */; };
+		E970B48E1F5C4F7600A6EF6F /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E970B48A1F5C4F7600A6EF6F /* Student+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		E970B47D1F5C3C4900A6EF6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E970B47F1F5C3C4900A6EF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		E970B4871F5C4F7600A6EF6F /* Course+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E970B4881F5C4F7600A6EF6F /* Course+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Course+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E970B4891F5C4F7600A6EF6F /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E970B48A1F5C4F7600A6EF6F /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				E970B4701F5C3C4900A6EF6F /* AppDelegate.swift */,
-				E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */,
-				E970B4721F5C3C4900A6EF6F /* ViewController.swift */,
+				E970B4901F5C5C8800A6EF6F /* Controllers */,
+				E970B48F1F5C4FB900A6EF6F /* Models */,
 				E970B4741F5C3C4900A6EF6F /* Main.storyboard */,
 				E970B47A1F5C3C4900A6EF6F /* Assets.xcassets */,
 				E970B47C1F5C3C4900A6EF6F /* LaunchScreen.storyboard */,
@@ -68,6 +76,26 @@
 				E970B4771F5C3C4900A6EF6F /* StudentsDatabase.xcdatamodeld */,
 			);
 			path = StudentsDatabase;
+			sourceTree = "<group>";
+		};
+		E970B48F1F5C4FB900A6EF6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E970B4871F5C4F7600A6EF6F /* Course+CoreDataClass.swift */,
+				E970B4881F5C4F7600A6EF6F /* Course+CoreDataProperties.swift */,
+				E970B4891F5C4F7600A6EF6F /* Student+CoreDataClass.swift */,
+				E970B48A1F5C4F7600A6EF6F /* Student+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E970B4901F5C5C8800A6EF6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E970B4851F5C3DCF00A6EF6F /* DatabaseController.swift */,
+				E970B4721F5C3C4900A6EF6F /* ViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E970B48B1F5C4F7600A6EF6F /* Course+CoreDataClass.swift in Sources */,
 				E970B4861F5C3DCF00A6EF6F /* DatabaseController.swift in Sources */,
+				E970B48E1F5C4F7600A6EF6F /* Student+CoreDataProperties.swift in Sources */,
 				E970B4731F5C3C4900A6EF6F /* ViewController.swift in Sources */,
+				E970B48D1F5C4F7600A6EF6F /* Student+CoreDataClass.swift in Sources */,
 				E970B4711F5C3C4900A6EF6F /* AppDelegate.swift in Sources */,
+				E970B48C1F5C4F7600A6EF6F /* Course+CoreDataProperties.swift in Sources */,
 				E970B4791F5C3C4900A6EF6F /* StudentsDatabase.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
